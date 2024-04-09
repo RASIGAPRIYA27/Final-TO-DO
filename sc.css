@@ -157,7 +157,7 @@ ul li span:hover{
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
     .container {
         margin: auto;
       grid-template-columns: 1fr; 
@@ -171,7 +171,7 @@ ul li span:hover{
       font-size: 30px;  
     }
     ul li::before {
-      right: 615px;  
+      right: 600px;  
     }
     .date-time-container{
         margin: 1px;

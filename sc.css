@@ -157,7 +157,7 @@ ul li span:hover{
     cursor: pointer;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 768px) {
     .container {
         margin: auto;
       grid-template-columns: 1fr; 

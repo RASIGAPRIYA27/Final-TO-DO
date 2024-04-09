@@ -1,0 +1,48 @@
+<html style="background-color: #c4e1c5;">
+<head>
+    <title>SparkCheck todo-list</title>
+    <link rel="stylesheet" type="text/css" href="sc.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div style="grid-area: 1 / 13; width: 100%; padding-bottom: 20px;">
+            <img src="https://i.ibb.co/MG1H6yd/on-Twitter-transformed.jpg" referrerpolicy="same-ori gin" 
+        style="display: block; object-fit: cover; border-radius: 0px; width: 100%; height: 37vh; opacity: 1;
+         object-position: center 50%; image-resolution: 100%;">
+        </div>   
+        <h2 class="tit">SparkCheck✨</h2> 
+        <div class="tit"><span style="font-size: 15px; font-weight: lighter; font-family: monospace;">Start your to-do list today and make every day count!🍀💫</span></div>
+    </header>
+    <div class="date-time-container">
+        <p id="datetime"></p>
+    </div>
+    <div class="container">
+
+    <div class="left-side">
+        <h2 style="font-size: 25;  margin-left: 7px; font-family: garamond; font-weight: 100; color :rgb(240, 255, 241); ">To-Do  Lists📝:</h2>
+        <div class="todo-task">
+            <input type="text" id="todo-input" placeholder="Add a task">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="todo-list">
+           <!-- <li class="checked"></li>-->
+        </ul>
+    </div>
+
+    <div class="right-side">
+        <div>
+            <h2 style="font-size: 25; font-family: garamond;margin-left: 7px; font-weight: 100; color :#188038;">Notes🗒️:</h2>
+            <button class="btn" onclick="note()" onclick="">Create Notes</button>
+            <div class="notes">
+              <!--<p contenteditable="true"class="inputbox">
+                    <img src="https://i.ibb.co/85RRd1b/delete.png" >
+                </p>-->
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="sc.js"></script>
+</body>
+</html>

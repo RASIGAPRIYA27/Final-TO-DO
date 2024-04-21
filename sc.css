@@ -197,7 +197,6 @@ ul li span:hover{
     transition: 0.5s;
 }
 
-
 @media only screen and (max-width: 1000px) {
     .container {
         margin: auto;

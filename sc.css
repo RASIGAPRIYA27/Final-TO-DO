@@ -156,6 +156,47 @@ ul li span:hover{
     right: 15px;
     cursor: pointer;
 }
+.icons{
+    background-color: #188038;
+    text-align: center;
+    border-radius: 15px;
+    padding: 17px;
+    justify-content: center;
+    height: 48px;
+   
+    
+}
+.icons p{
+    font-size: 18px;
+    font-family: monospace;
+    color: whitesmoke;
+    padding: 4px;
+}
+.icons a{
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+
+}
+.icons a i{
+    justify-content: center;
+    font-size: 20px;
+    color: #188038;
+    opacity: 0.9;
+}
+.icons a:hover{
+    transition: 0.5s;
+    background-color: #cecece;
+    color: whitesmoke;
+}
+.icons a i:hover{
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
 
 @media only screen and (max-width: 1000px) {
     .container {
